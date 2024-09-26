@@ -1,5 +1,5 @@
 # Digisyn Link AES67 Virtual Soundcard
-![Digisyn Link Logo](https://www.digisynthetic.com/wp-content/uploads/2024/09/DIGISYN-LINK.webp)
+![Digisyn Link Logo](https://static.jyshare.com/images/runoob-logo.png)
 
 ### Digisyn Link VSC is an AES67 virtual soundcard for Windows that turns your audio into AES67 streams. Which needs the [Digisyn Link](https://www.runoob.com)  controller to manage routings. The Digisyn Link VSC has been tested in the current network audio environment. Includes:
 + __Dante__
@@ -87,7 +87,7 @@
 如果开启了防火墙，需要将以下程序设置为允许联网：
 
 + ___DigisynLinkVSC_V3.0.exe___
-+ ___DigisynRoute.exe____
++ ___DigisynRoute.exe___
 
 
 
