@@ -164,8 +164,8 @@ If the firewall is enabled, you need to set the following programs to allow netw
 ## About this repository
 
 1.  This repository is for storing the Digisyn Link VSC AES67 virtual sound card software package and the user manual.
-2.  For more information about Digisyn Link, please visit [www.digisynthetic.com][digisynthetic].
-3.  This software is __Not open source__. To apply for a trial activation code or a 2x2 VSC, please send an email to <info@digisynthetic.com> or complete the register form at [VSC homepage][vsc].
+2.  For more information about Digisyn Link, please visit **[www.digisynthetic.com][digisynthetic]**.
+3.  This software is __Not open source__. To apply for a trial activation code or a 2x2 VSC, please send an email to **<info@digisynthetic.com>** or complete the register form at **[VSC homepage][vsc]**.
 
 [digisyn-link]: https://www.digisynthetic.com
 [dl-04]:   https://www.digisynthetic.com
