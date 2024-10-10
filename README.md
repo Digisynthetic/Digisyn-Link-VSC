@@ -1,6 +1,6 @@
  # Digisyn Link AES67 Virtual Sound Card(VSC)
 
-<img src="./images/vsc-logo.jpg" alt="Digisyn Link VSC Logo" style="height:350px;">
+<img src="./images/vsc-logo.png" alt="Digisyn Link VSC Logo" style="height:350px;">
 
 
 
@@ -21,9 +21,9 @@ The Digisyn Link VSC has currently been tested in mainstream network audio envir
 
 
 ### Features including:
-+ __•	Supports 48 kHz and 96 kHz sampling rates__
-+ __•	Up to 64x64 channels__
-+ __•	Windows WDM audio format__
++ __Supports 48 kHz and 96 kHz sampling rates__
++ __Up to 64x64 channels__
++ __Windows WDM audio format__
 
 ## 1. Compatible system versions
 This software requires  __Windows10__ or higher, specifically version __22H2__ and above.
