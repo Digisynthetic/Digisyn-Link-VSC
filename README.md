@@ -4,12 +4,9 @@
 
 
 
-__The Digisyn Link VSC (AES67 Virtual Sound Card) can send AES67 audio streams in a Windows environment. It requires the use of the [Digisyn Link][digisyn-link] controller to manage the routing of audio streams (both unicast and multicast).__ 
+__The Digisyn Link VSC (AES67 Virtual Sound Card) can send AES67 audio streams in a Windows environment. It requires the use of the [Digisyn Link3 GUI Controller][digisyn-link]  to manage the routing of audio streams (both unicast and multicast).__ 
 
-
-
-
-![AES67 Logo](./images/AES67-logo.webp)
+![Digisyn Link Logo](./images/DIGISYNLINK.jpg)
 
 The Digisyn Link VSC has currently been tested in mainstream network audio environments, including:
 + __Dante__
@@ -67,7 +64,7 @@ You need to use __[Digisyn Link][digisyn-link]__  controller to create and manag
 
 
 + __To send unicast audio streams using VSC__ click on the matrix in the Digisyn Link controller main routing interface. The left side shows sending devices, and the top shows receiving devices. Click on the sending device labeled VSC (default naming format is __vsc-xxxxx-xxxxx__  as shown in the image:
-![VSC Tx device](./images/vsc-tx.jpg) )  
+![VSC Tx device](./images/vsc-tx.png) )  
 Overlap the channel you want to send from the VSC with the channel of the receiving device by clicking on the corresponding square in the matrix. When a green checkmark <kbd>√</kbd> appears, it indicates that the audio stream has been successfully created.
 
 + __VSC receives unicast audio stream__ currently only supports receiving sent from __[DL-04 series network modules][dl-04]__ / __[DL-08 series network modules][dl-08]__ and __[DsCore audio workstations][dscore]__. As mentioned, overlap the desired sending channel with the receiving channel on the VSC. Click on the corresponding square in the matrix, and when a green checkmark <kbd>√</kbd> appears, it indicates that the audio stream has been successfully created.
@@ -81,14 +78,14 @@ Overlap the channel you want to send from the VSC with the channel of the receiv
 
 + __VSC manages AES67 group broadcast audio stream__
   + Double-click on the VSC (default naming format is __vsc-xxxxx-xxxxx__  as shown in the image: 
-![VSC Tx device](./images/vsc-tx.jpg) )，Click on <kbd>Stream</kbd>，then select the submenu <kbd>Multicast Stream</kbd>，After filling in the details, click <kbd>Create</kbd>，The main routing matrix will display the created multicast, with the device box colored green, as shown in the image: ![VSC multicast device](./images/123.jpg)
+![VSC Tx device](./images/vsc-tx.png) )，Click on <kbd>Stream</kbd>，then select the submenu <kbd>Multicast Stream</kbd>，After filling in the details, click <kbd>Create</kbd>，The main routing matrix will display the created multicast, with the device box colored green, as shown in the image: ![VSC multicast device](./images/vsc-m1.png)
 
   + + __Multicast Stream__：This page allows you to create, view, and delete multicast streams.
     + __Nmae of Multicast Stream__：The name displayed after creation, limited to 32 characters.
     + __Target Address__：The address for the multicast stream you can use automatic allocation or customize the address.
     + Select '__Auto__' to automatically assign the destination address and port number. The destination
 address will be assigned according to the RTP prefix configured for the domain in which the device
-is enrolled. For example, if the RTP prefix for the domain is 69, the device will create a flow with destination address of 239.69.x.x. The port number defaults to 5004.
+is enrolled. For example, if the RTP prefix for the domain is 69, the device will create a flow with destination address of 239.69.x.x. The port number defaults to __5004__.
     + Select '__Manual__' to specify the address and port. The IP address must be in the range __239.0.0.0__ to
 __239.254.254.254__. The port can be set to any non-administrative port number.
 
@@ -163,11 +160,11 @@ If the firewall is enabled, you need to set the following programs to allow netw
 
 ## About this repository
 
-1.  This repository is for storing the Digisyn Link VSC AES67 virtual sound card software package and the user manual.
+1.  This repository is for storing the Digisyn Link VSC AES67 virtual sound card software package and the user manual. To download VSC, please click __"Releases"__ on the right.
 2.  For more information about Digisyn Link, please visit **[www.digisynthetic.com][digisynthetic]**.
 3.  This software is __Not open source__. To apply for a trial activation code or a 2x2 VSC, please send an email to **<info@digisynthetic.com>** or complete the register form at **[VSC homepage][vsc]**.
 
-[digisyn-link]: https://www.digisynthetic.com
+[digisyn-link]: https://github.com/Digisynthetic/Digisyn-Link-GUI
 [dl-04]:   https://www.digisynthetic.com
 [dl-08]:  https://www.digisynthetic.com
 [dscore]:  https://www.digisynthetic.com
