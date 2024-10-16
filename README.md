@@ -9,8 +9,8 @@ __The Digisyn Link VSC (AES67 Virtual Sound Card) can send AES67 audio streams i
 ![Digisyn Link Logo](./images/DIGISYNLINK.jpg)
 
 The Digisyn Link VSC has currently been tested in mainstream network audio environments, including:
++ __RAVENNA__
 + __Dante__
-+ __Ravenna__
 + __Q-Lan__
 + __Telos__ 
 + __Crestron__
