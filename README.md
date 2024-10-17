@@ -1,4 +1,4 @@
- # Digisyn Link AES67 Virtual Sound Card(VSC)
+ # Digisyn AES67 Virtual Sound Card (Digisyn VSC)
 
 <img src="./images/vsc-logo.png" alt="Digisyn Link VSC Logo" style="height:350px;">
 
