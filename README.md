@@ -4,7 +4,7 @@
 
 
 
-__The DIGISYN VSC (AES67 Virtual Sound Card) can send AES67 audio streams in a Windows environment. It requires the use of the __DIGISYN LINK3 GUI Controller__ to manage the routing of audio streams (both unicast and multicast).__ 
+__The DIGISYN VSC (AES67 Virtual Sound Card) can send AES67 audio streams in a Windows environment. It requires the use of the __[DIGISYN LINK3 GUI Controller](https://github.com/Digisynthetic/Digisyn-Link-GUI)__ to manage the routing of audio streams (both unicast and multicast).__ 
 
 ![DIGISYN LINK Logo](https://raw.githubusercontent.com/Digisynthetic/Digisyn-Link-VSC/main/images/DIGISYNLINK.jpg)
 
