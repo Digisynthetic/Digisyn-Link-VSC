@@ -1,6 +1,6 @@
  # DIGISYN AES67 Virtual Sound Card (DIGISYN VSC)
 
-<img src="./images/vsc-logo.png" alt="DIGISYN VSC Logo" style="height:350px;">
+<img src="https://raw.githubusercontent.com/Digisynthetic/Digisyn-Link-VSC/main/images/vsc-logo.png" alt="DIGISYN VSC Logo" style="height:350px;">
 
 
 
