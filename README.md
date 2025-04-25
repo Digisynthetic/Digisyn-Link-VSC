@@ -102,7 +102,7 @@ __239.254.254.254__. The port can be set to any non-administrative port number.
 
 Click the "Settings" button in the top to open the customization feature page.
 
-![VSC settings](https://raw.githubusercontent.com/Digisynthetic/Digisyn-Link-VSC/main/images/vsc-settings.jpg)
+![VSC settings](https://raw.githubusercontent.com/Digisynthetic/Digisyn-Link-VSC/main/images/vsc-settings.png)
 
 
 ## 9. Playback and Recording Channel Settings
