@@ -1,14 +1,13 @@
- # DIGISYN AES67 Virtual Sound Card (DIGISYN VSC)
+ # AES67 Virtual Sound Card (VSC)
 
 <img src="https://raw.githubusercontent.com/Digisynthetic/Digisyn-Link-VSC/main/images/vsc-logo.png" alt="DIGISYN VSC Logo" style="height:350px;">
 
 
 
-__The DIGISYN VSC (AES67 Virtual Sound Card) can send AES67 audio streams in a Windows environment. It requires the use of the __[DIGISYN LINK3 GUI Controller](https://github.com/Digisynthetic/Digisyn-Link-GUI)__ to manage the routing of audio streams (both unicast and multicast).__ 
+__The SoundNet VSC (AES67 Virtual Sound Card) can send AES67 audio streams in a Windows environment. It requires the use of the __[AES67LINK GUI Controller](https://www.aes-67.com/aes67-link)__ to manage the routing of audio streams (both unicast and multicast).__ 
 
-![DIGISYN LINK Logo](https://raw.githubusercontent.com/Digisynthetic/Digisyn-Link-VSC/main/images/DIGISYNLINK.jpg)
 
-The DIGISYN LINK VSC has currently been tested in mainstream network audio environments, including:
+The SoundNet VSC has currently been tested in mainstream network audio environments, including:
 + __RAVENNA__
 + __Dante__
 + __Q-Lan__
@@ -18,13 +17,13 @@ The DIGISYN LINK VSC has currently been tested in mainstream network audio envir
 
 
 ### Features including:
-+ __Supports 48 kHz and 96 kHz sampling rates__
++ __Supports 48kHz, 96kHz, and 192kHz sampling rates__
 + __Up to 64x64 channels__
-+ __Windows WDM audio format__
++ __Windows WDM / ASIO audio format__
 
 ## 1. Compatible system versions
 This software requires  __Windows10__ or higher, specifically version __22H2__ and above.
-The best version is __Win10 22H2__，while newer versions of __Win11__ may be less stable; __Windows11 23H2 and 24H2__ cannot guarantee stability.
+The best version is __Win10 22H2__，while newer versions of __Win11__ may be less stable.
 
 
 ## 2. Software Installation
@@ -60,14 +59,14 @@ After launching the software, select the corresponding wired network card <u>（
 
 ## 6. Create and manage unicast streams 
 
-You need to use __DIGISYN LINK3 GUI__  controller to create and manage audio streams. For detailed installation and usage instructions please click the link: __[DIGISYN LINK3 GUI](https://github.com/Digisynthetic/Digisyn-Link-GUI)__ to access the Github repository.
+You need to use __AES67LINK GUI__  controller to create and manage audio streams. For detailed installation and usage instructions please click the link: __[AES67LINK GUI Home Page](https://www.aes-67.com/aes67-link)__ to regsiter and donwload.
 
 
-+ __To send unicast audio streams using VSC__ click on the matrix in the DIGISYN LINK controller main routing interface. The left side shows sending devices, and the top shows receiving devices. Click on the sending device labeled VSC (default naming format is __vsc-xxxxx-xxxxx__  as shown in the image:
++ __To send unicast audio streams using VSC__ click on the matrix in the AES67LINK controller main routing interface. The left side shows sending devices, and the top shows receiving devices. Click on the sending device labeled VSC (default naming format is __vsc-xxxxx-xxxxx__  as shown in the image:
 ![VSC Tx device](https://raw.githubusercontent.com/Digisynthetic/Digisyn-Link-VSC/main/images/vsc-tx.png) )  
 Overlap the channel you want to send from the VSC with the channel of the receiving device by clicking on the corresponding square in the matrix. When a green checkmark <kbd>√</kbd> appears, it indicates that the audio stream has been successfully created.
 
-+ __VSC receives unicast audio stream__ currently only supports receiving sent from __[DL-04 series network modules](https://www.digisynthetic.com/dl-modules/)__ / __[DL-08 series network modules](https://www.digisynthetic.com/dl-modules/)__ and __DSCORE audio workstations__. As mentioned, overlap the desired sending channel with the receiving channel on the VSC. Click on the corresponding square in the matrix, and when a green checkmark <kbd>√</kbd> appears, it indicates that the audio stream has been successfully created.
++ __VSC receives unicast audio stream__  As mentioned, overlap the desired sending channel with the receiving channel on the VSC. Click on the corresponding square in the matrix, and when a green checkmark <kbd>√</kbd> appears, it indicates that the audio stream has been successfully created.
 
 + __To delete a unicast audio stream__ go to the matrix in the controller main routing interface. Open the channel on the VSC that you want to unsubscribe from and click on the green checkmark <kbd>√</kbd> ，When the green checkmark <kbd>√</kbd> disappears, it indicates that the audio stream subscription has been canceled.
 
@@ -160,8 +159,7 @@ If the firewall is enabled, you need to set the following programs to allow netw
 
 ## About this repository
 
-1.  This repository is for storing the DIGISYN LINK VSC AES67 virtual sound card software package and the user manual. To download VSC, please click __"Releases"__ on the right.
-2.  For more information about DIGISYN LINK, please visit **[www.digisynthetic.com](https://www.digisynthetic.com)**.
-3.  This software is __Not open source__. To apply for a trial activation code or a 2x2 VSC, please send an email to **<info@digisynthetic.com>** or complete the register form at **[VSC homepage](https://www.digisynthetic.com/aes67-virtual-soundcard/)**.
+1.  This repository is for storing the SoundNet VSC AES67 virtual sound card software package and the user manual. To download VSC or apply for a trial activation code, please register at **[DIGISYNTHETIC DOCS](https://docs.digisynthetic.com/)**.
+2.  For more information, please visit **[www.digisynthetic.com](https://www.digisynthetic.com)**.
 
 
